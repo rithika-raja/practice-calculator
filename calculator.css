@@ -25,6 +25,7 @@
 form {
     background-color: var(--secondaryColor);
     border-radius: 1rem;
+    margin: 2rem;
 }
 
 h3 {
