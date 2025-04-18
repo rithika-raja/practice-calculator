@@ -1,0 +1,89 @@
+/* PROJECT CODE */
+.calculator {
+    /* background-color: #1e3a8a; */
+}
+
+.calculatorContainer {
+    /* background-color: #1e40af; */
+}
+
+.calculatorBody {
+    /* background-color: #1d4ed8; */
+}
+
+.calculatorBlock {
+    /* background-color: #2563eb; */
+}
+
+.calculatorBox {
+    /* background-color: #60a5fa; */
+    width: 100%;
+    height: auto;
+    
+}
+
+form {
+    background-color: var(--secondaryColor);
+    border-radius: 1rem;
+}
+
+h3 {
+    /* background-color: #e0f2fe; */
+    padding: 2rem;
+}
+
+.formGrp {
+    /* background-color: #bfdbfe; */
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+label {
+    /* background-color: #e0f2fe; */
+}
+
+input {
+    background-color: var(--lightColor);
+}
+
+select {
+    /* background-color: #e0f2fe; */
+    
+}
+
+option {
+    /* background-color: #f0f9ff; */
+   
+}
+
+button {
+    background-color: var(--tertiaryColor);
+    font-family: var(--ffsecondary);
+    color: var(--lightColor);
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.25rem 2rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--primaryColor);
+    color: var(--darkColor);
+    transition: background-color 0.3s ease;
+}
+
+#answer {
+    /* background-color: #dbeafe; */
+    font-family: var(--ffsecondary);
+    color: var(--darkColor);
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+}
